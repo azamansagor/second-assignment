@@ -1,0 +1,72 @@
+/* Default Designs */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #3E3E3E;
+    font-weight: 300;
+}
+
+.title-font{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 700;
+    color: #363958;
+    font-size: 80px;
+}
+
+.button-design{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 35px;
+    background-color: #2A1E59;
+    color: #ffffff;
+    border-radius: 15px;
+}
+.button-design img{
+    width: 20px;
+    margin-right: 10px;
+}
+.rounded-15{
+    border-radius: 15px;
+}
+.card .price{
+    color: #76C27E;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/* Header Design */
+.header .navbar-brand img{
+    max-width: 100%;
+}
+
+/* Banner Design */
+.banner h2 span{
+    display: block;
+    color: #76C27E;
+}
+
+/* Introduction Design */
+.intro-desc h2{
+    font-size: 24px;
+}
+.illustration-image{
+    height: 350px;
+}
+
+/*Cacual backpack */
+.casual .title-font, .travel .title-font{
+    font-size: 48px;
+}
+.casual .card, .travel .card{
+    border: none;
+}
+.casual .card .image-holder, .travel .card .image-holder{
+    background-color: #F1F1F1;
+}
+
+
